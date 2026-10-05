@@ -153,3 +153,11 @@ body{font-size:20.6976px}
   .filter-group{flex-wrap:wrap}
   .select-wrap{min-width:125px}
 }
+
+.records-controls{align-items:center}
+.filter-group{flex-wrap:wrap}
+.group-toggle{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-size:12.936px;color:#75836e;cursor:pointer}
+.group-toggle input{accent-color:var(--green);width:16px;height:16px}
+.person-group-heading{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:4px 12px;padding:12px 24px;background:#f1f6ed;border-bottom:1px solid #e5eddf;color:#3a4f37;font-size:14px}
+.person-group-heading span{color:#6b8164;font-size:12.936px}
+@media(max-width:760px){.person-group-heading{padding:12px 18px}.group-toggle{width:100%}}
