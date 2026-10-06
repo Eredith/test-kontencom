@@ -485,7 +485,7 @@ export default function Dashboard({ email }: { email: string }) {
               ) : (
                 displayedGroups.map((group, groupIndex) => (
                   <div className="person-group" key={group.key}>
-                    {groupByPerson && group.debts.length > 1 && (
+                    {groupByPerson && (
                       <div className="person-group-heading">
                         <strong>{group.name}</strong>
                         <span>
